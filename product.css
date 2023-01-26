@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-size: 18px;
+  color: white;
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.container > div {
+  width: 200px;
+  background-color: rgba(223, 221, 224, 0.24);
+  text-align: center;
+  padding: 6px;
+  margin: 10px 0px;
+  border: 2px solid black;
+}
+
+.blo-illus{
+  display: flex;
+  flex-direction: column;
+}
+
+.new-pou{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.new-pou > p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+.new {
+  background-color: aquamarine;
+}
+
+.pou{
+  background-color: rgb(236, 75, 75);
+}
+
+p{
+  font-size: 14px;
+  color: rgb(44, 40, 40);
+}
+
+.pri{
+  color: rgb(41, 116, 41);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+span{
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: rgb(13, 14, 13);
+}
+
+button{
+  background-color: rgb(203, 210, 216);
+  border-radius: 5px;
+  padding: 6px;
+  font-weight: bold;
+}
